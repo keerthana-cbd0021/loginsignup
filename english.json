@@ -1,0 +1,53 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Greetings"],
+        "responses": ["Hello! How can I assist you today?"]
+      },
+      {
+        "tag": "accounts",
+        "patterns": [
+          "How to open a new bank account?",
+          "Tell me about different account types",
+          "What are the account opening requirements?"
+        ],
+        "responses": [
+          "To open a new bank account, you can visit our nearest branch with a valid ID and proof of address. We offer various account types to suit your needs."
+        ]
+      },
+      {
+        "tag": "balance_inquiry",
+        "patterns": [
+          "How can I check my account balance?",
+          "Tell me my current balance",
+          "Balance inquiry"
+        ],
+        "responses": ["You can check your account balance through our mobile app, internet banking, or by visiting an ATM."]
+      },
+      {
+        "tag": "loans",
+        "patterns": [
+          "What types of loans do you offer?",
+          "Tell me about home loans",
+          "How can I apply for a personal loan?"
+        ],
+        "responses": ["We provide various loans, including home loans and personal loans. To apply, visit our nearest branch or check our website."]
+      },
+      {
+        "tag": "credit_cards",
+        "patterns": [
+          "How to apply for a credit card?",
+          "Tell me about credit card benefits",
+          "Credit card application process"
+        ],
+        "responses": ["To apply for a credit card, visit our website or contact our customer service. Enjoy various benefits with our credit cards."]
+      },
+      {
+        "tag": "thank_you",
+        "patterns": ["Thank you", "Thanks", "Appreciate your help"],
+        "responses": ["You're welcome! If you have more questions, feel free to ask."]
+      }
+    ]
+  }
+  
